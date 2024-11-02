@@ -1,0 +1,14 @@
+---
+apiVersion: "Praveen.alpha.coveros.com/v1alpha1"
+kind: "S3"
+metadata:
+  name: s3
+  namespace: Praveen
+s3Specs:
+  bucketName: Praveencsdasidgasidgasiksdc
+  # syncWith: 
+  #   s3Bucket: copyFromBucket
+  region: us-east-1
+  labels:
+    name: S3Bucket
+    tier: data
